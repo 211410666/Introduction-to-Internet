@@ -1354,6 +1354,33 @@ const ReTopic = () => {
         <h3 class="grade">共 25 題,目前做到第 1 題,總共得分:0</h3>`;
 };
 
+const fix = document.querySelector('.fail');
+const fix_content = document.querySelector('.fail-content');
+const fix_title = document.querySelector('.fail-title');
+
+
+const FixAnswer = (b)=>{
+    if(b==true){
+        fix.textContent = "";
+        fix_content.textContent = "";
+        fix_title.textContent="";
+    }
+    else{
+        fix_title.textContent="答錯了!";
+        fix.textContent = topic[count].id + "." + topic[count].title;
+        let correctAnswer = 0;
+        if(topic[count].answer=="B"){
+            correctAnswer = 1;
+        }
+        else if(topic[count].answer=="C"){
+            correctAnswer = 2;
+        }
+        else if(topic[count].answer=="D"){
+            correctAnswer = 3;
+        }
+        fix_content.textContent = "正確答案為 : " + topic[count].option[correctAnswer];
+    }
+};
 
 
 SetTopic();
@@ -1371,6 +1398,10 @@ YourAnswer.forEach((answer) => {
         console.log('123');
         if (e.currentTarget.classList.contains(topic[count].answer)) {
             grade += 4;
+            FixAnswer(true);
+        }
+        else{
+            FixAnswer(false);
         }
         count++;
         if (count < 25) {

@@ -6,7 +6,7 @@ body{
 
 .option{
     width: 90vw;
-    height: 10vh;
+    height: 9vh;
     margin-top: 2rem;
     font-size: 1.2rem;
     background-color: white;
@@ -39,4 +39,14 @@ body{
 
 .title{
     font-size: 1.2rem;
+}
+
+.fail-section{
+    font-size: 0.8rem;
+    color: red;
+}
+
+.fail-section .fail-title{
+    font-size: 1rem;
+    font-weight: bolder;
 }
