@@ -8,7 +8,7 @@ body{
     width: 90vw;
     height: 10vh;
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: white;
     border: 1px dashed rgb(90, 90, 90);
     border-radius: 8px;
@@ -27,11 +27,16 @@ body{
     letter-spacing: 1.5px;
 }
 
-.end button{
+.end{
     width: 50vw;
     height: 5vh;
     background-color: rgb(230, 243, 243);
     border: 1px dashed rgb(90, 90, 90);
-    margin-top: 2rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    display: none;
+}
+
+.title{
     font-size: 1.2rem;
 }
