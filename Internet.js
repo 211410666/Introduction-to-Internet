@@ -974,37 +974,37 @@ const data = [
     {
         id: 145,
         title: "「創新小點子」商店,想藉由網際網路(Internet)提供世界各地的客戶預訂產 品,他們申請網域,應該架設何種系統?",
-        option: ["(A)FTP伺服器", "(B)WWW伺服器", "(C)DNS 伺服器", "(D)Mail伺服器"],
+        option: ["FTP伺服器", "WWW伺服器", "DNS 伺服器", "Mail伺服器"],
         answer: "C"
     },
     {
         id: 164,
         title: "當 DHCP 客戶端第一次成功的從DHCP伺服器端租用到IP位址之後,就 永遠使用這個位址的是?",
-        option: ["(A)自動分配(Automatic Allocation)", "(B) 動態分配 (Dynamic Allocation)", "(C) 靜態分配(Static Allocation)", "(D) 以上皆非"],
+        option: ["自動分配(Automatic Allocation)", "動態分配 (Dynamic Allocation)", "靜態分配(Static Allocation)", "以上皆非"],
         answer: "A"
     },
     {
         id: 165,
         title: "當 DHCP 第一次從HDCP 伺服器端租用到IP位址之後,並非永久的使 用該位址,只要租約到期,客戶端就得釋放(release)這個IP位址,以給其 它工作站使用是?",
-        option: ["(A)自動分配(Automatic Allocation)", "(B)動態分配 (Dynamic Allocation)", "(C) 靜態分配(Static Allocation)", "(D)以上皆非"],
+        option: ["自動分配(Automatic Allocation)", "動態分配 (Dynamic Allocation)", "靜態分配(Static Allocation)", "以上皆非"],
         answer: "B"
     },
     {
         id: 166,
         title: "當 DHCP 客戶端(client)啟動時,它會向 DHCP server 廣播請求IP-Address 租用,稱為?",
-        option: ["(A) DHCPDISCOVER 封包", "(B) DHCPOFFER 封包", "(C) DHCPREQUEST 封包", "(D)DHCPACK 封包"],
+        option: ["DHCPDISCOVER 封包", "DHCPOFFER 封包", "DHCPREQUEST 封包", "DHCPACK 封包"],
         answer: "A"
     },
     {
         id: 167,
         title: "ICANN 開放由非英文字母撰寫的網域名稱,共幾種文字的網域名稱",
-        option: ["(A)9", "(B)10", "(C)11", "(D)12"],
+        option: ["9", "10", "11", "12"],
         answer: "C"
     },
     {
         id: 168,
         title: "「WWW」(World Wide Web)全球資訊網是哪個單位所發明",
-        option: ["(A)IEEE", "(B)歐洲高能粒子協會", "(C) ANSI", "(D)IETF"],
+        option: ["IEEE", "歐洲高能粒子協會", "ANSI", "IETF"],
         answer: "B"
     },
     {
@@ -1320,22 +1320,26 @@ const data = [
 const topic_exist = new Array(data.length).fill(false);
 const topic = new Array();
 
+
+
 const SectionTopic = document.querySelector(".inner-section");
 
 
-
-
-
-
-for (var i = 0; i < 25; i++) {
-    let n = Math.floor((Math.random() * 219) + 1);
-    while (topic_exist[n] == true) {
-        n = Math.floor((Math.random() * 219) + 1);
+const SetTopic = ()=>{
+    for (var i = 0; i < 25; i++) {
+        let n = Math.floor((Math.random() * 219) + 1);
+        while (topic_exist[n] == true) {
+            n = Math.floor((Math.random() * 219) + 1);
+        }
+    
+        topic_exist[n] = true;
+        topic.push(data[n]);
     }
-
-    topic_exist[n] = true;
-    topic.push(data[n]);
 }
+
+
+
+
 let count = 0;
 let grade = 0;
 
@@ -1352,14 +1356,19 @@ const ReTopic = () => {
 
 
 
-
+SetTopic();
 ReTopic();
+
 const YourAnswer = document.querySelectorAll('.option');
 const Title = document.querySelector('.title');
 const YourGrade = document.querySelector('.grade');
+const endBtn = document.querySelector('.end');
+
+
 
 YourAnswer.forEach((answer) => {
     answer.addEventListener('click', (e) => {
+        console.log('123');
         if (e.currentTarget.classList.contains(topic[count].answer)) {
             grade += 4;
         }
@@ -1367,7 +1376,6 @@ YourAnswer.forEach((answer) => {
         if (count < 25) {
             YourGrade.textContent = "共 25 題,目前做到第 " + (count + 1) + "題,總共得分:" + grade;
             Title.textContent = topic[count].id + "." + topic[count].title;
-
             YourAnswer.forEach((item, index) => {
                 if (index == 0) {
                     item.textContent = "(A) " + topic[count].option[index];
@@ -1385,13 +1393,16 @@ YourAnswer.forEach((answer) => {
             });
         }
         else {
-            
+            YourGrade.textContent = "結束了! 你得到"+grade+"分";
+            endBtn.style.display = 'inline-block';
         }
 
     });
 });
 
 
-
+endBtn.addEventListener('click',()=>{
+    window.location.reload();
+});
 
 
