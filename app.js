@@ -70,6 +70,9 @@ const getAnsBtn = (answer) => {
             btn.classList.remove('hidden');
             btn.textContent = answer[index];
         }
+        else{
+            btn.classList.add('hidden');
+        }
     });
 };
 
