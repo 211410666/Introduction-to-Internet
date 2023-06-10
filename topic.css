@@ -1,52 +1,70 @@
-body{
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: beige;
-}
-
-.option{
-    width: 90vw;
-    height: 9vh;
-    margin-top: 2rem;
-    font-size: 1.2rem;
-    background-color: white;
-    border: 1px dashed rgb(90, 90, 90);
-    border-radius: 8px;
-
-}
-
-.inner-section{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-.grade{
-    margin-top: 4rem;
-    letter-spacing: 1.5px;
-}
-
-.end{
-    width: 50vw;
-    height: 5vh;
-    background-color: rgb(230, 243, 243);
-    border: 1px dashed rgb(90, 90, 90);
-    margin-top: 1rem;
-    font-size: 1.2rem;
+.hidden{
     display: none;
 }
 
-.title{
-    font-size: 1.2rem;
-}
-
-.fail-section{
-    font-size: 0.8rem;
+.status_text{
+    font-size: 4vw;
     color: red;
 }
 
-.fail-section .fail-title{
-    font-size: 1rem;
-    font-weight: bolder;
+.status{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.ans_rate{
+    font-size: 6vw;
+    color: rgb(20, 74, 57);
+}
+
+.answer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.ansBtn{
+    font-size: 4vw;
+    padding: 4vw;
+    width: 60vw;
+    border: 0.5vw dashed brown;
+    border-radius: 2vw;
+    background-color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    height: auto;
+    overflow: hidden;
+    white-space: hidden;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+}
+
+.topic_text{
+    font-size: 6vw;
+    margin-bottom: 10vh;
+    font-weight: bold;
+    color: rgb(116, 51, 51);
 }

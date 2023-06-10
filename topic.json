@@ -1,0 +1,1330 @@
+[
+    {
+
+        "topic":"1.負責網路傳輸的邏輯位址，即一般所用的IP位址(IPAddress)來做資料傳輸，是甚麼協定",
+        
+        "answers":"@(A)HTTP協定@(B)TCP協定@(C)IP協定@(D)IEEE802.3協定"
+        
+        },
+        
+        {
+        
+        "topic":"2.直接輸入IP位址的設定，除了自己的IP，還必須包括",
+        
+        "answers":"@(A)子網路的網址、預設閘道位址、慣用DNS伺服器@(B)子網路的網址、慣用DNS伺服器、E-mail位址@(C)子網路遮罩位址、預設閘道位址、慣用DNS伺服器@(D)子網路的網址、慣用DNS伺服器、公司或學校的WWW網址"
+        
+        },
+        
+        {
+        
+        "topic":"3.網路卡上面，一定可以找到，一個由12個十六進位數字組成的48bit的",
+        
+        "answers":"@(A)實體層位址@(B)IP位址@(C)網址@(D)子網路位址"
+        
+        },
+        
+        {
+        
+        "topic":"4.實體層位址，後面的六個數字是卡片識別碼(CardID)，前面的六個數字",
+        
+        "answers":"@(A)廠商ID@(B)廠商的工廠代號@(C)發明網路卡的人@(D)網路卡的國家別"
+        
+        },
+        
+        {
+        
+        "topic":"5.網際網路上主要的送收依據",
+        
+        "answers":"@(A)實體層位址@(B)IP位址@(C)網址@(D)子網路位址"
+        
+        },
+        
+        {
+        
+        "topic":"6.目前使用的IP協定",
+        
+        "answers":"@(A)IPv1@(B)IPv2@(C)IPv3@(D)IPv4"
+        
+        },
+        
+        {
+        
+        "topic":"7.IPv4協定的位址表示",
+        
+        "answers":"@(A)四個十進位數字@(B)四個十六進位數字@(C)五個十進位數字@(D)五個十六進位數字"
+        
+        },
+        
+        {
+        
+        "topic":"8.IPv4協定的位址表示法",
+        
+        "answers":"@(A)注音符號二進位法@(B)標點二進位法@(C)注音符號十進位法@(D)標點十進位法"
+        
+        },
+        
+        {
+        
+        "topic":"9.點選【自動取得IP位址】+點選【自動取得DNS伺服器位址】，必需該網路有支援甚麼協定，取得IP位址",
+        
+        "answers":"@(A)DHCP@(B)WWW@(C)FTP@(D)E-mail"
+        
+        },
+        
+        {
+        
+        "topic":"10.用來判定來源IP和目的IP是否在同一網域的一個判斷位址",
+        
+        "answers":"@(A)IP位址@(B)子網路遮罩@(C)預設閘道@(D)慣用DNS伺服器"
+        
+        },
+        
+        {
+        
+        "topic":"11.網路的閘道口，傳送的資料若要送到不同網域時，該閘道位址可以決定封包的傳輸途徑",
+        
+        "answers":"@(A)IP位址@(B)子網路遮罩@(C)預設閘道@(D)慣用DNS伺服器"
+        
+        },
+        
+        {
+        
+        "topic":"12.用途在於將主機名稱(HostName)轉成IP位址",
+        
+        "answers":"@(A)IP位址@(B)子網路遮罩@(C)預設閘道@(D)慣用DNS伺服器"
+        
+        },
+        
+        {
+        
+        "topic":"13.負責分配IP位址的組織",
+        
+        "answers":"@(A)ICANN@(B)WTO@(C)WHO@(D)IETF"
+        
+        },
+        
+        {
+        
+        "topic":"14.IP位址分成幾個等級",
+        
+        "answers":"@(A)2個@(B)3個@(C)4個@(D)5個"
+        
+        },
+        
+        {
+        
+        "topic":"15.只有國家、美國的大企業或政府單位可以擁",
+        
+        "answers":"@(A)ClassA@(B)ClassB@(C)ClassC@(D)ClassD"
+        
+        },
+        
+        {
+        
+        "topic":"16.用來分配給一些跨國企業或ISP公司使用的",
+        
+        "answers":"@(A)ClassA@(B)ClassB@(C)ClassC@(D)ClassD"
+        
+        },
+        
+        {
+        
+        "topic":"17.用來分配給一些小型企業使用的",
+        
+        "answers":"@(A)ClassA@(B)ClassB@(C)ClassC@(D)ClassD"
+        
+        },
+        
+        {
+        
+        "topic":"18.一個等級C的網路共被分配到幾個IP位址",
+        
+        "answers":"@(A)128@(B)256@(C)512@(D)65536"
+        
+        },
+        
+        {
+        
+        "topic":"19.那一個IP位址不能用於網際網路",
+        
+        "answers":"@(A)141.113.23.1@(B)192.168.0.1@(C)168.95.1.23@(D)66.23.25.11"
+        
+        },
+        
+        {
+        
+        "topic":"20.等級A的子網路遮罩是",
+        
+        "answers":"@(A)255.0.0.0@(B)255.255.0.0@(C)255.255.255.0@(D)255.255.255.255"
+        
+        },
+        
+        {
+        
+        "topic":"21.IPv4位址共佔幾個位元",
+        
+        "answers":"@(A)32@(B)48@(C)64@(D)不一定"
+        
+        },
+        
+        {
+        
+        "topic":"22.IPv4位址61.128.78.71是那一等級的IP位址",
+        
+        "answers":"@(A)等級A@(B)等級B@(C)等級C@(D)等級D"
+        
+        },
+        
+        {
+        
+        "topic":"23.IPv4位址198.128.78.92是那一等級的IP位址",
+        
+        "answers":"@(A)等級A@(B)等級B@(C)等級C@(D)等級D"
+        
+        },
+        
+        {
+        
+        "topic":"24.如果是以“10”為開頭位元的，則屬於那一Class的IP",
+        
+        "answers":"@(A)等級A@(B)等級B@(C)等級C@(D)等級D"
+        
+        },
+        
+        {
+        
+        "topic":"25.192.128.205.71/24此法常為網管人員使用，簡單易懂「/」後面的數字24代表",
+        
+        "answers":"@(A)正常IP@(B)不正常IP@(C)網路遮罩中0的個數@(D)子網路遮罩中1的個數"
+        
+        },
+        
+        {
+        
+        "topic":"26.用來測試兩台主機是否能夠順利連線的最簡單的指令工",
+        
+        "answers":"@(A)CIDR@(B)PING@(C)NAT@(D)ARP"
+        
+        },
+        
+        {
+        
+        "topic":"27.PING(PacketInterNetGopher)命令是甚麼應用之一",
+        
+        "answers":"@(A)CIDR@(B)ICMP@(C)NAT@(D)ARP"
+        
+        },
+        
+        {
+        
+        "topic":"28.未來的IP協定",
+        
+        "answers":"@(A)IPv5@(B)IPv6@(C)IPv6@(D)IPv7"
+        
+        },
+        
+        {
+        
+        "topic":"29.IPv6協定是幾位",
+        
+        "answers":"@(A)16@(B)32@(C)64@(D)128"
+        
+        },
+        
+        {
+        
+        "topic":"30.提供將IP位址查詢相對應MAC位址的服務",
+        
+        "answers":"@(A)PING@(B)TRACERT@(C)ARP@(D)RARP"
+        
+        },
+        
+        {
+        
+        "topic":"31.網路電話其傳輸語音的原理是透過哪種協",
+        
+        "answers":"@(A)VoIP@(B)VoNET@(C)TelIP@(D)TelNet"
+        
+        },
+        
+        {
+        
+        "topic":"32.網路的安全複雜因素，由低到高是？1.使用E-mail2.瀏覽網頁(Web)3.架設網站4.電子商務網",
+        
+        "answers":"@(A)1234@(B)4321@(C)1243@(D)2321"
+        
+        },
+        
+        {
+        
+        "topic":"33.誰是利用存在於各類系統上的軟體或硬體弱點來非法入侵電腦，卻不故意破壞系統的人",
+        
+        "answers":"@(A)駭客@(B)不速之客@(C)網友@(D)競爭對手"
+        
+        },
+        
+        {
+        
+        "topic":"34.好的駭客，測試網路和系統的性能來判定它們能夠承受入侵的強弱程度，致力於發展電腦技術，維護網路安全，沒有任何破壞行為",
+        
+        "answers":"@(A)白帽駭客@(B)黑帽駭客@(C)灰帽駭客@(D)綠帽駭客"
+        
+        },
+        
+        {
+        
+        "topic":"35.電腦病毒、電腦蠕蟲、特洛伊木馬程式都屬",
+        
+        "answers":"@(A)炸彈程式@(B)欺騙程式@(C)良性程式@(D)惡性程式"
+        
+        },
+        
+        {
+        
+        "topic":"36.解除病毒需要借重什麼軟體來移除病毒",
+        
+        "answers":"@(A)作業系統@(B)掃毒軟體@(C)程式語言@(D)辦公室軟體"
+        
+        },
+        
+        {
+        
+        "topic":"37.會自我複製並主動散播到網路系統上的其他電腦裡面，就像蟲一樣在網路系統裡面到處爬竄，所以稱",
+        
+        "answers":"@(A)電腦病毒@(B)電腦蠕蟲@(C)特洛伊木馬(Trojans)程式@(D)遠端遙控"
+        
+        },
+        
+        {
+        
+        "topic":"38.一種由遠端操控被攻擊主機的軟體",
+        
+        "answers":"@(A)電腦病毒@(B)電腦蠕蟲@(C)特洛伊木馬(Trojans)程式@(D)遠端遙控"
+        
+        },
+        
+        {
+        
+        "topic":"39.一項協助確保資訊安全的裝置，其會依照特定的規則，允許或是限制資料通過",
+        
+        "answers":"@(A)Ghost@(B)防毒軟體@(C)IP分享器@(D)防火牆"
+        
+        },
+        
+        {
+        
+        "topic":"40.容易備份磁碟機的軟",
+        
+        "answers":"@(A)Ghost@(B)Flash@(C)PhotoShop@(D)FrontPage"
+        
+        },
+        
+        {
+        
+        "topic":"41.那一種係提供系統或電腦相關資源之權限，通常會搭配帳號的分類或群組來做管理",
+        
+        "answers":"@(A)帳號@(B)權限管理@(C)加密@(D)電子簽章"
+        
+        },
+        
+        {
+        
+        "topic":"42.網路上法律可視為本人簽名的",
+        
+        "answers":"@(A)帳號@(B)權限管理@(C)加密@(D)電子簽章"
+        
+        },
+        
+        {
+        
+        "topic":"43.網路身分證，就",
+        
+        "answers":"@(A)帳號@(B)權限管理@(C)加密@(D)自然人憑證"
+        
+        },
+        
+        {
+        
+        "topic":"44.「自然人憑證」的申請很簡單，攜帶身分證親到何處申請辦理就可以",
+        
+        "answers":"@(A)戶政事務所@(B)地政事務所@(C)國稅局@(D)銀行"
+        
+        },
+        
+        {
+        
+        "topic":"45.MicrosoftWindows作業系統含有何種功能，可在您電腦開啟且連上網際網路時，自動下載最新版的Microsoft安全性更新",
+        
+        "answers":"@(A)電腦備份@(B)自動更新@(C)防毒@(D)防火牆"
+        
+        },
+        
+        {
+        
+        "topic":"46.何種是協助確保資訊安全的裝置，其會依照特定的規則，允許或是限制資料通過",
+        
+        "answers":"@(A)電腦備份@(B)自動更新@(C)防毒@(D)防火牆"
+        
+        },
+        
+        {
+        
+        "topic":"47.無線網路傳輸範圍在一個都市內的",
+        
+        "answers":"@(A)無線個人網路@(B)無線區域網路@(C)無線都會網路@(D)無線廣域網路"
+        
+        },
+        
+        {
+        
+        "topic":"48.無線網路是指傳輸範圍可跨越國家或不同城市之間的無線網路的",
+        
+        "answers":"@(A)無4線個人網路@(B)無線區域網路@(C)無線都會網路@(D)無線廣域網路"
+        
+        },
+        
+        {
+        
+        "topic":"49.藍芽(Bluetooth)為一種新型態的",
+        
+        "answers":"@(A)無線通信技術@(B)手機計價@(C)PDA作業系統@(D)電子商務模式"
+        
+        },
+        
+        {
+        
+        "topic":"50.下列何者為目前無線區域網路(WLAN)所使用的技術標準",
+        
+        "answers":"@(A)IEEE802.16@(B)IEEE802.11@(C)HTTP@(D)IEEE802.3"
+        
+        },
+        
+        {
+        
+        "topic":"51.藍芽技術是屬於",
+        
+        "answers":"@(A)無線個人網路@(B)無線區域網路@(C)無線都會網路@(D)無線廣域網路"
+        
+        },
+        
+        {
+        
+        "topic":"52.藍芽使用那一公開頻道",
+        
+        "answers":"@(A)1.4GHz@(B)2.4GHz@(C)3.4GHz@(D)4.4GHz"
+        
+        },
+        
+        {
+        
+        "topic":"53.無線區域網路在哪種模式，工作站與工作站之間，藉由無線媒介(WirelessMedium)，在工作站的發射功率所及區域來收送資訊",
+        
+        "answers":"@(A)基地台模式@(B)隨意網路模式@(C)工作站模式@(D)發射模式"
+        
+        },
+        
+        {
+        
+        "topic":"54.第二代行動通訊是",
+        
+        "answers":"@(A)GSM@(B)GPRS@(C)3G@(D)類比式傳輸電話"
+        
+        },
+        
+        {
+        
+        "topic":"55.無線區域網路的加密功能稱",
+        
+        "answers":"@(A)WAP@(B)WEP@(C)WAD@(D)WED"
+        
+        },
+        
+        {
+        
+        "topic":"56.IEEE802.16無線都會網路(WMAN，WirelessMANStandardforWirelessMetropolitanAreaNetworks)技術，業界簡",
+        
+        "answers":"@(A)Wi-Fi@(B)Wi-Fly@(C)Wi-Max@(D)Wi-3G"
+        
+        },
+        
+        {
+        
+        "topic":"57.可取代電纜線路、光纖線路及數位用戶迴路(xDSL)的昂貴基礎建置成本",
+        
+        "answers":"@(A)Wi-Fi@(B)Wi-Fly@(C)Wi-Max@(D)Wi-3G"
+        
+        },
+        
+        {
+        
+        "topic":"58.那一個不是無線廣域網路",
+        
+        "answers":"@(A)GSM@(B)GPRS@(C)3G@(D)IEEE802.11b"
+        
+        },
+        
+        {
+        
+        "topic":"59.GSM網路能夠和網際網路互相連接，要加上那一個技術才可以",
+        
+        "answers":"@(A)GSM@(B)GPRS@(C)3G@(D)802.11b"
+        
+        },
+        
+        {
+        
+        "topic":"60.第四代行動電話的技術",
+        
+        "answers":"@(A)GSM@(B)GPRS@(C)WCDMA@(D)LTE"
+        
+        },
+        
+        {
+        
+        "topic":"61.LTE希望在20MHz頻寬下，達到上傳速率",
+        
+        "answers":"@(A)50Mbps@(B)100Mbps@(C)150Mbps@(D)200Mbps"
+        
+        },
+        
+        {
+        
+        "topic":"62.LTE希望在20MHz頻寬下，達到下載速率",
+        
+        "answers":"@(A)50Mbps@(B)100Mbps@(C)150Mbps@(D)200Mbps"
+        
+        },
+        
+        {
+        
+        "topic":"63.若是將一個八個位元(8bits)的二進位數字，前三個位元當分群依據，共可分為幾",
+        
+        "answers":"@(A)3@(B)6@(C)8@(D)9群"
+        
+        },
+        
+        {
+        
+        "topic":"64.試問224.0.0.1為分級網路中",
+        
+        "answers":"@(A)A@(B)B@(C)C@(D)D級網路"
+        
+        },
+        
+        {
+        
+        "topic":"65.若是C級網路的『網路位址』部份佔24位元，『主機位址』部份會",
+        
+        "answers":"@(A)8@(B)16@(C)64@(D)256個不同的主機位址"
+        
+        },
+        
+        {
+        
+        "topic":"66.試問在分級網路中，B級網路所使用的網路遮罩為",
+        
+        "answers":"@(A)255.0.0.0@(B)255.255.0.0@(C)255.255.255.0@(D)255.255.255.255"
+        
+        },
+        
+        {
+        
+        "topic":"67.若是有一個網路為192.168.8.0/X，表示有1,024個主機位址，試問X的數字為",
+        
+        "answers":"@(A)22@(B)24@(C)26@(D)28"
+        
+        },
+        
+        {
+        
+        "topic":"68.在一個ClassB中切出每個子網路有1,024個IP數(包括第一個網路位址與最後一個廣播位址)，請問子網路遮罩的位元數",
+        
+        "answers":"@(A)20@(B)21@(C)22@(D)23"
+        
+        },
+        
+        {
+        
+        "topic":"69.在一個ClassB中切出每個子網路有4,096個IP數(包括第一個網路位址與最後一個廣播位址)，請問子網路遮罩的位元數",
+        
+        "answers":"@(A)20@(B)21@(C)22@(D)23"
+        
+        },
+        
+        {
+        
+        "topic":"70.在一個ClassC中切出每個子網路有8個IP數(包括第一個網路位址與最後一個廣播位址)，請問子網路遮罩的位元數",
+        
+        "answers":"@(A)27@(B)28@(C)29@(D)30"
+        
+        },
+        
+        {
+        
+        "topic":"71.在一個ClassC中切出每個子網路有32個IP數(包括第一個網路位址與最後一個廣播位址)，請問子網路遮罩的位元數",
+        
+        "answers":"@(A)27@(B)28@(C)29@(D)30"
+        
+        },
+        
+        {
+        
+        "topic":"72.在一個ClassB中切出1,024個子網路，請問有多少主機位",
+        
+        "answers":"@(A)16@(B)32@(C)64@(D)128"
+        
+        },
+        
+        {
+        
+        "topic":"73.在一個ClassB中切出4,096個子網路，請問有多少主機位",
+        
+        "answers":"@(A)16@(B)32@(C)64@(D)128"
+        
+        },
+        
+        {
+        
+        "topic":"74.在一個ClassC中切出8個子網路，請問有多少主機位",
+        
+        "answers":"@(A)8@(B)16@(C)32@(D)64"
+        
+        },
+        
+        {
+        
+        "topic":"75.在一個ClassC中切出32個子網路，請問有多少主機位",
+        
+        "answers":"@(A)4@(B)8@(C)16@(D)32"
+        
+        },
+        
+        {
+        
+        "topic":"76.若是一個企業擁有192.168.8.0/24、192.168.9.0/24、192.168.10.0/24及192.168.11.0/24四個網路，則該企業可以將這四個網路整併為一個較大網路",
+        
+        "answers":"@(A)192.168.8.0/24@(B)192.168.11.0/24@(C)192.168.8.0/22@(D)192.168.8.0/23"
+        
+        },
+        
+        {
+        
+        "topic":"77.在Windows作業系統下，可以利用arp指令來查詢ARPCache內的資料，是利用以下哪一個參數",
+        
+        "answers":"@(A)a@(B)g@(C)d@(D)s"
+        
+        },
+        
+        {
+        
+        "topic":"78.在Windows作業系統下，可以利用arp指令來新增靜態ARPEntry，是利用以下哪一個參數",
+        
+        "answers":"@(A)a@(B)g@(C)d@(D)s"
+        
+        },
+        
+        {
+        
+        "topic":"79.在Windows作業系統下，可以利用arp指令來刪除ARPCache內的資料，是利用以下哪一個參數",
+        
+        "answers":"@(A)a@(B)g@(C)d@(D)s"
+        
+        },
+        
+        {
+        
+        "topic":"80.以下哪一種傳輸方式是IPv6新增，而IPv4沒有的傳輸方",
+        
+        "answers":"@(A)Unicast@(B)Broadcast@(C)Multicast@(D)Anycast"
+        
+        },
+        
+        {
+        
+        "topic":"81.新的網路通訊協定IPv6的位址長",
+        
+        "answers":"@(A)32@(B)48@(C)64@(D)128bits"
+        
+        },
+        
+        {
+        
+        "topic":"82.以下哪一個是IPv6Link-Local的IPv6位址首",
+        
+        "answers":"@(A)FE80::/10@(B)FE88::/10@(C)FEC0::/10@(D)FECC::/10"
+        
+        },
+        
+        {
+        
+        "topic":"83.以下哪一個是IPv6Site-Local的IPv6位址首",
+        
+        "answers":"@(A)FE80::/10@(B)FE88::/10@(C)FEC0::/10@(D)FECC::/10"
+        
+        },
+        
+        {
+        
+        "topic":"84.家中使用的IP分享器，以下哪一項功能是非必要",
+        
+        "answers":"@(A)NAT@(B)DHCP@(C)VPN@(D)路由"
+        
+        },
+        
+        {
+        
+        "topic":"85.以下針對『通道技術』(Tunneling)的描述何者錯",
+        
+        "answers":"@(A)可以使用在IPv4/IPv6的轉換機制@(B)可以使用在VPN的連線@(C)主要是利用封包的封裝方式@(D)就是建立一條專屬的實體專線"
+        
+        },
+        
+        {
+        
+        "topic":"86.為了解決辦公室人員坐位經常性的改變，卻又要保有原有的IP網段，可以使用以下何者解決方",
+        
+        "answers":"@(A)私有網路@(B)虛擬區域網路@(C)虛擬私有網6路@(D)建置DMZ"
+        
+        },
+        
+        {
+        
+        "topic":"87.試問位於『非戰區』(DemilitarizedZone,簡稱DMZ)內的主機型態為下列哪一",
+        
+        "answers":"@(A)對外使用的伺服器@(B)企業內部使用的伺服器@(C)防火牆@(D)一般使用者的電腦"
+        
+        },
+        
+        {
+        
+        "topic":"88.以下何者是用來識別MO(被管理物件ManagedObject)的方",
+        
+        "answers":"@(A)自己命名方式@(B)自己給定編號@(C)每個MO都會有自己的名稱@(D)物件識別碼"
+        
+        },
+        
+        {
+        
+        "topic":"89.所有的被管理物件(MO)的集合稱之",
+        
+        "answers":"@(A)被管理物件資料庫(MODatabase)@(B)管理資訊庫(MIB)@(C)被管理物件樹(MOTree)@(D)被管理物件集合體(MOSet)"
+        
+        },
+        
+        {
+        
+        "topic":"90.若是NMS又能接受Agent傳來的Trap訊息，必須開啟哪一個port的服",
+        
+        "answers":"@(A)161@(B)162@(C)22@(D)80"
+        
+        },
+        
+        {
+        
+        "topic":"91.試問『數位信封』(DigitalEnvelope)的主要目的",
+        
+        "answers":"@(A)傳送會議金鑰(sessionkey)@(B)傳送安全的信件@(C)傳送個人私鑰給對方@(D)傳送訊息驗證碼給對方"
+        
+        },
+        
+        {
+        
+        "topic":"92.試問『數位憑證』(DigitalCertificate)的目的為",
+        
+        "answers":"@(A)證明『私鑰』(privatekey)的擁有者@(B)證明『公鑰』(publickey)的擁有者@(C)證明『密鑰』(secretkey)的擁有者@(D)以上皆是"
+        
+        },
+        
+        {
+        
+        "topic":"93.試問SSL是建置於TCP/IP協定組中的哪一層上",
+        
+        "answers":"@(A)實體層@(B)鏈結層@(C)網路層@(D)傳輸層"
+        
+        },
+        
+        {
+        
+        "topic":"94.試問SSL是利用哪一項對資料加/解",
+        
+        "answers":"@(A)數位信封@(B)數位憑證@(C)會議金鑰@(D)使用者的公鑰"
+        
+        },
+        
+        {
+        
+        "topic":"95.若是利用SNMP的管理方式，當Agent發生異常現在時，會透過以下何者傳送訊息給NM",
+        
+        "answers":"@(A)ICMP@(B)ARP@(C)Trap@(D)RARP"
+        
+        },
+        
+        {
+        
+        "topic":"96.以下何種演算法最常被用來保護資料的保密性，效率也較",
+        
+        "answers":"@(A)公開金鑰系統@(B)對稱金鑰系統@(C)數位憑證@(D)HashFunction"
+        
+        },
+        
+        {
+        
+        "topic":"97.在串流加密演算法中，以下哪一個是最常被使用的重要方",
+        
+        "answers":"@(A)AND@(B)OR@(C)XOR@(D)以上皆非"
+        
+        },
+        
+        {
+        
+        "topic":"98.傳輸層的通訊協定",
+        
+        "answers":"@(A)TCP，UDP@(B)IP，IRAP@(C)HTTP，FTP@(D)DNS，WINS"
+        
+        },
+        
+        {
+        
+        "topic":"99.欲連上Internet網際網路，在windows網路協定中需有何種通訊協定",
+        
+        "answers":"@(A)IPX/SPX@(B)NetBuei@(C)TCP/IP@(D)GatWAY"
+        
+        },
+        
+        {
+        
+        "topic":"100.TCP協定採用哪種方式的握手程",
+        
+        "answers":"@(A)單向式@(B)雙向式@(C)三向式@(D)四向式"
+        
+        },
+        
+        {
+        
+        "topic":"101.TCP如何提供可靠性傳輸是非常複雜的，必須採用一定的確認機制來保證傳輸之可靠性這種技術需要接收端以哪種方式回應發送端，肯定資料正確無誤的到達，同時雙方保留傳輸的封包記錄，以作為下一筆資料的確認依據",
+        
+        "answers":"@(A)確認信息封包@(B)友善封包@(C)回應封包@(D)錯誤檢查碼"
+        
+        },
+        
+        {
+        
+        "topic":"102.TCP多重發送和多重確認的技術",
+        
+        "answers":"@(A)三向式握手程序@(B)逾時(Timeout)和7重送機制@(C)滑動窗@(D)確認封包機制"
+        
+        },
+        
+        {
+        
+        "topic":"103.一個IP與一個Port所組成的",
+        
+        "answers":"@(A)插座@(B)網路組合@(C)封包標頭@(D)封包標尾"
+        
+        },
+        
+        {
+        
+        "topic":"104.網際網路所使用的主要通訊協定",
+        
+        "answers":"@(A)網路上的芳鄰@(B)NovellIPX@(C)NetBEUI@(D)TCP/IP"
+        
+        },
+        
+        {
+        
+        "topic":"105.那個協定提供了非連結性的快速服務",
+        
+        "answers":"@(A)TCP@(B)UDP@(C)SMTP@(D)以上皆是"
+        
+        },
+        
+        {
+        
+        "topic":"106.TCP協定解決那個的問題",
+        
+        "answers":"@(A)流量控管@(B)保證送達@(C)資料不會失序與重複@(D)以上皆是"
+        
+        },
+        
+        {
+        
+        "topic":"107.下列有關網路運輸階層的敘述，何者有誤",
+        
+        "answers":"@(A)TCP為連接導向的通訊協定@(B)TCP必須配合IP的使用@(C)UDP為非連接式的通訊協定@(D)UDP無需配合IP的使用"
+        
+        },
+        
+        {
+        
+        "topic":"108.「防火牆」的原理和簡單，其實就是控管「IP位址」",
+        
+        "answers":"@(A)「使用者」@(B)埠號@(C)帳號@(D)網路名稱"
+        
+        },
+        
+        {
+        
+        "topic":"109.哪個設備可用來防止病毒、蠕蟲、木馬和駭客等入",
+        
+        "answers":"@(A)集線器@(B)交換器@(C)路由器@(D)防火牆"
+        
+        },
+        
+        {
+        
+        "topic":"110.WellKnown埠號的範圍是",
+        
+        "answers":"@(A)0-128@(B)0-512@(C)0-1024@(D)0-2048"
+        
+        },
+        
+        {
+        
+        "topic":"111.FTP預設使用哪一個埠號(portnumber)來傳送資料",
+        
+        "answers":"@(A)21@(B)80@(C)110@(D)7150"
+        
+        },
+        
+        {
+        
+        "topic":"112.WWW網站使用哪一個埠號來傳送資料",
+        
+        "answers":"@(A)21@(B)80@(C)110@(D)7150"
+        
+        },
+        
+        {
+        
+        "topic":"113.『已知埠號』(Well‐KnowPorts)的連線埠號區間",
+        
+        "answers":"@(A)0–1,023@(B)1,024–49,151@(C)0–1,924@(D)只要小於65,535即可，IANA並沒有限制"
+        
+        },
+        
+        {
+        
+        "topic":"114.以下對FTP的敘述，哪一個項目有",
+        
+        "answers":"@(A)使用TCP協定@(B)使用UDP協定@(C)使用20連接埠@(D)使用21連接埠"
+        
+        },
+        
+        {
+        
+        "topic":"115.每一部電腦的UDP連線埠，最多",
+        
+        "answers":"@(A)65,536@(B)1,023@(C)1,024@(D)80個埠號"
+        
+        },
+        
+        {
+        
+        "topic":"116.請問下列哪一個不是國際標準組織",
+        
+        "answers":"@(A)OSI@(B)ANSI@(C)ITU@(D)ISO"
+        
+        },
+        
+        {
+        
+        "topic":"117.WorldWideWeb的發明人",
+        
+        "answers":"@(A)馬克·扎克伯格@(B)貝爾@(C)比爾·蓋茲@(D)提姆·柏內茲-李"
+        
+        },
+        
+        {
+        
+        "topic":"118.台灣電器工作電壓",
+        
+        "answers":"@(A)100V@(B)110V@(C)120V@(D)130V"
+        
+        },
+        
+        {
+        
+        "topic":"119.台灣電器工作頻",
+        
+        "answers":"@(A)50Hz@(B)60Hz@(C)70Hz@(D)80Hz"
+        
+        },
+        
+        {
+        
+        "topic":"120.制定無線網路標準是IEE",
+        
+        "answers":"@(A)802.10@(B)802.11@(C)802.12@(D)802.13標準委員會"
+        
+        },
+        
+        {
+        
+        "topic":"121.中華民國國家標準的縮寫為何",
+        
+        "answers":"@(A)OSI@(B)ANSI@(C)ITU@(D)CNS"
+        
+        },
+        
+        {
+        
+        "topic":"122.點對點通訊協定(PointToPointProtocol，PPP)是一種??通訊協定",
+        
+        "answers":"@(A)序列@(B)並列@(C)序列及並列@(D)以上皆非"
+        
+        },
+        
+        {
+        
+        "topic":"123.IPv6的IP位址",
+        
+        "answers":"@(A)16@(B)32@(C)64@(D)128位元的"
+        
+        },
+        
+        {
+        
+        "topic":"124.IPv4的IP位址分幾",
+        
+        "answers":"@(A)3@(B)4@(C)5@(D)6類"
+        
+        },
+        
+        {
+        
+        "topic":"125.5.6.7.8是屬於IP分類",
+        
+        "answers":"@(A)ClassA@(B)ClassB@(C)ClassC@(D)ClassD"
+        
+        },
+        
+        {
+        
+        "topic":"126.200.200.200.200是屬於IP分類",
+        
+        "answers":"@(A)ClassA@(B)ClassB@(C)ClassC@(D)ClassD"
+        
+        },
+        
+        {
+        
+        "topic":"127.150.150.150.150.屬於IP分類",
+        
+        "answers":"@(A)ClassE@(B)ClassB@(C)ClassC@(D)ClassD"
+        
+        },
+        
+        {
+        
+        "topic":"128.請問DHCP",
+        
+        "answers":"@(A)1種@(B)2種@(C)3種@(D)4種機制分配IP位址"
+        
+        },
+        
+        {
+        
+        "topic":"129.請問下列哪一個是DHCP架構組成部分",
+        
+        "answers":"@(A)DHCP用戶端@(B)DHCP伺服器@(C)領域@(D)以上皆是"
+        
+        },
+        
+        {
+        
+        "topic":"130.請問下列哪一個不是DHCP架構中三個組成部分",
+        
+        "answers":"@(A)DHCP用戶端@(B)DHCP伺服器@(C)領域@(D)以上皆是"
+        
+        },
+        
+        {
+        
+        "topic":"131.請問下列哪一個是DHCP正確的分配流程",
+        
+        "answers":"@(A)1.DHCPDiscover>2.DHCPOffer>3.DHCPRequest>4.DHCPAck@(B)1.DHCPDiscover>2.DHCPRequest>3.DHCPOffer>4.DHCPAck@(C)1.DHCPAck>2.DHCPRequest>3.DHCPOffer>4.DHCPDiscover@(D)以上皆非"
+        
+        },
+        
+        {
+        
+        "topic":"132.請問DHCPDiscover最多會送幾次",
+        
+        "answers":"@(A)1次@(B)2次@(C)3次@(D)4次ps.:Windows預設情形"
+        
+        },
+        
+        {
+        
+        "topic":"133.可將電腦的IP位址轉換成人類所了解的網域名稱的系統簡",
+        
+        "answers":"@(A)DNS@(B)PPP@(C)HTTP@(D)Gopher"
+        
+        },
+        
+        {
+        
+        "topic":"134.網域名稱中的類別通稱，何者代表政府機關",
+        
+        "answers":"@(A)com@(B)gov@(C)org@(D)net@(E)mil@(F)edu"
+        
+        },
+        
+        {
+        
+        "topic":"135.網域名稱中的類別通稱，何者代表軍方單位",
+        
+        "answers":"@(A)com@(B)gov@(C)org@(D)net@(E)mil@(F)edu"
+        
+        },
+        
+        {
+        
+        "topic":"136.網域名稱中的類別通稱，何者代表商業機關",
+        
+        "answers":"@(A)com@(B)gov@(C)org@(D)net@(E)mil@(F)edu"
+        
+        },
+        
+        {
+        
+        "topic":"137.網域名稱中的類別通稱，何者代表組織機關",
+        
+        "answers":"@(A)com@(B)gov@(C)org@(D)net@(E)mil@(F)edu"
+        
+        },
+        
+        {
+        
+        "topic":"138.網域名稱中的類別通稱，何者代表學術單位",
+        
+        "answers":"@(A)com@(B)gov@(C)org@(D)net@(E)mil@(F)edu"
+        
+        },
+        
+        {
+        
+        "topic":"139.DNS是下面哪一個的縮寫",
+        
+        "answers":"@(A)DomainNameServer@(B)DomainNameService@(C)DomainNameSystem@(D)以上皆是"
+        
+        },
+        
+        {
+        
+        "topic":"140.下面哪一個是DNS的查詢方法",
+        
+        "answers":"@(A)遞迴式查詢@(B)9反覆式查詢@(C)混合式查詢@(D)以上皆是"
+        
+        },
+        
+        {
+        
+        "topic":"141.下面哪一個不是DNS資源記載中的欄位",
+        
+        "answers":"@(A)SQA@(B)NS@(C)A@(D)以上皆非"
+        
+        },
+        
+        {
+        
+        "topic":"142.下面哪一個是DNS資源記載中的欄位",
+        
+        "answers":"@(A)SQA@(B)NS@(C)A@(D)以上皆非"
+        
+        },
+        
+        {
+        
+        "topic":"143.請問下列哪一是屬於連線導向(Connection-Oriented)協定",
+        
+        "answers":"@(A)UDP@(B)TCP@(C)IP@(D)以上皆是"
+        
+        },
+        
+        {
+        
+        "topic":"144.請問下列哪一是屬於非連線導向(Connectionless)協定",
+        
+        "answers":"@(A)UDP@(B)TCP@(C)IP@(D)以上皆是"
+        
+        },
+        
+        {
+        
+        "topic":"145.乙太網路(Ethernet)的最大傳輸單元",
+        
+        "answers":"@(A)1200@(B)1300@(C)1400@(D)1500位元組"
+        
+        },
+        
+        {
+        
+        "topic":"146.IP表頭大小",
+        
+        "answers":"@(A)10@(B)20@(C)30@(D)40位元組"
+        
+        },
+        
+        {
+        
+        "topic":"147.TCP表頭大小",
+        
+        "answers":"@(A)40@(B)30@(C)20@(D)10位元組"
+        
+        },
+        
+        {
+        
+        "topic":"148.乙太網路(Ethernet)的最大傳輸單元",
+        
+        "answers":"@(A)1200@(B)1300@(C)1400@(D)1500位元組"
+        
+        },
+        
+        {
+        
+        "topic":"149.乙太網路工業標準編號",
+        
+        "answers":"@(A)IEEE802.1@(B)IEEE802.2@(C)IEEE802.3@(D)IEEE802.4"
+        
+        },
+        
+        {
+        
+        "topic":"150.乙太網路是",
+        
+        "answers":"@(A)Unicasting@(B)Multicasting@(C)Broadcasting@(D)Flooding傳送方式的網路"
+        
+        },
+        
+        {
+        
+        "topic":"151.有線區域網路是使用下列哪一個通訊協定",
+        
+        "answers":"@(A)Ethernet@(B)CSMA/CA@(C)CSMA@(D)CSMA/CD"
+        
+        },
+        
+        {
+        
+        "topic":"152.無線區域網路是使用下列哪一個通訊協定",
+        
+        "answers":"@(A)Ethernet@(B)CSMA/CD@(C)CSMA@(D)CSMA/CA"
+        
+        },
+        
+        {
+        
+        "topic":"153.下列哪一個不是Backoff演算法的設計方",
+        
+        "answers":"@(A)0-persistent@(B)1-persistent@(C)p-persistent@(D)x-persistent"
+        
+        },
+        
+        {
+        
+        "topic":"154.乙太網路採用的Backoff演算",
+        
+        "answers":"@(A)0-persistent@(B)1-persistent@(C)p-persistent@(D)x-persistent"
+        
+        },
+        
+        {
+        
+        "topic":"155.標準乙太網路傳輸速率可高",
+        
+        "answers":"@(A)1Mbps@(B)10Mbps@(C)100Mbps@(D)1000Mbps"
+        
+        },
+        
+        {
+        
+        "topic":"156.高速乙太網路傳輸速率可高",
+        
+        "answers":"@(A)1Mbps@(B)10Mbps@(C)100Mbps@(D)1000Mbps"
+        
+        },
+        
+        {
+        
+        "topic":"157.超高速乙太網路傳輸速率可高",
+        
+        "answers":"@(A)1Mbps@(B)10Mbps@(C)100Mbps@(D)1000Mbps"
+        
+        },
+        
+        {
+        
+        "topic":"158.AppleTalk的前身叫",
+        
+        "answers":"@(A)AppleNet@(B)AppleMac@(C)AppleBus@(D)AppleRing"
+        
+        },
+        
+        {
+        
+        "topic":"159.請問下列哪一個交換技術需要專屬頻寬",
+        
+        "answers":"@(A)電路交換@(B)訊息交換@(C)分封交換@(D)以上皆是"
+        
+        },
+        
+        {
+        
+        "topic":"160.請問下列哪一個交換技術需要傳輸延遲最小",
+        
+        "answers":"@(A)電路交換@(B)訊息交換@(C)分封交換@(D)以上皆是"
+        
+        },
+        
+        {
+        
+        "topic":"161.請問下列哪一個交換技術的通道使用效率最高",
+        
+        "answers":"@(A)電路交換@(B)訊息交換@(C)分封交換@(D)以上皆是"
+        
+        },
+        
+        {
+        
+        "topic":"162.請問TCP/IP是屬於哪一種交換技術",
+        
+        "answers":"@(A)電路交換@(B)訊息交換@(C)分封交換@(D)以上皆非"
+        
+        },
+        
+        
+        {
+        
+        "topic":"163.請問非同步傳輸協定(ATM)是屬於哪一種交換技術",
+        
+        "answers":"@(A)電路交換@(B)訊息交換@(C)分封交換@(D)以上皆非"
+        
+        },
+        
+        {
+        
+        "topic":"164.請問電話是屬於哪一種交換技術",
+        
+        "answers":"@(A)電路交換@(B)訊息交換@(C)分封交換@(D)以上皆非"
+        
+        },
+        
+        {
+        
+        "topic":"165.請問FrameRelay是屬於哪一種交換技術",
+        
+        "answers":"@(A)電路交換@(B)訊息交換@(C)分封交換@(D)以上皆非"
+        
+        },
+        
+        {
+        
+        "topic":"166.電路交換的三個階段順序",
+        
+        "answers":"@(A)EstablishCircuit>>TransferData>>TerminateCircuit@(B)TerminateCircuit>>EstablishCircuit>>TransferData@(C)TransferData>>EstablishCircuit>>TerminateCircuit@(D)以上皆是"
+        
+        }
+]
